@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+/* 
+1º - Flex-direction {Para decidir a direção dos elementos}  
+    - row : sentido linha (Eixo horizontal como principal na esquerda)
+    - row-reverse : deixa o elemento no sentido linha porém ao contrário (Eixo horizontal na direita)
+    - colunm : eixo principal em coluna (Na vertical na esquerda)
+    -colunm-reverse : deixa o eixo pricipal commo vertical porém ao contrário (Na direita)
+
+2º - Justify-content
+    flex-start : agrupamento dos conteúdos no lado esquerdo
+    flex-end : agrupamento dos elementos no canto direito da página
+    flex-center : agrupamento dos elementos no centro da página
+    space-bteween : distribuir os elementos ao longo da página
+    space-around : distribui elementos em espassos
+*/
+
+
+.bloco {
+    font-size: 18px;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+    padding: 10px;
+
+    float: left;
+    margin: 1rem;
+}
+
+
+.marrom{
+    background-color: #735032;
+    color: black;
+    flex: 1;
+}
+
+.marromclaro {
+    
+    background-color: #8C6F56;
+   color: black;
+   flex: 2;
+}
+
+.marrommeio {
+    background-color: #D9C5B4;
+    color: black;
+    flex: 2;
+    
+}
+
+.container{
+    display: flex;
+    background-color: #A69B92;
+    flex-direction: row;
+    margin: 10px;
+}
+
+html {
+    background-color: #F2F0EB;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    color: #A6774E;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    color: #BA8E7A;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+.flex-direction-row-reverse{
+    color: black;
+    background-color: #A69B92;
+    padding: 16px;
+}
